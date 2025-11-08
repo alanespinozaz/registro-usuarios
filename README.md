@@ -4,7 +4,7 @@
 
 ---
 
-## 📘 Descripción
+## Descripción
 
 Este proyecto es una aplicación web completa que permite registrar usuarios en una base de datos PostgreSQL mediante una API REST creada con Node.js y Express.
 Además, incluye una interfaz desarrollada en React que permite realizar el registro de forma visual y sencilla.
@@ -13,7 +13,7 @@ El objetivo es mostrar el funcionamiento integrado entre **frontend (React)**, *
 
 ---
 
-## 🧠 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 🗁 servidor-usuarios/     ← Backend (API REST)
@@ -36,7 +36,7 @@ El objetivo es mostrar el funcionamiento integrado entre **frontend (React)**, *
 
 ---
 
-## ⚙️ Requisitos previos
+## Requisitos previos
 
 Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
@@ -46,7 +46,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🗄️ Configuración de la base de datos
+## Configuración de la base de datos
 
 1. Abre **pgAdmin 4** y crea una base de datos llamada:
 
@@ -73,7 +73,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🖥️ Instalación del Backend (Node.js + Express)
+## Instalación del Backend (Node.js + Express)
 
 1. Abre una terminal dentro de la carpeta `servidor-usuarios`:
 
@@ -107,7 +107,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🌐 Instalación del Frontend (React)
+## Instalación del Frontend (React)
 
 1. Abre otra terminal y entra en la carpeta del cliente:
 
@@ -135,7 +135,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🚀 Uso del sistema
+## Uso del sistema
 
 1. Abre el formulario en `http://localhost:3001`.
 2. Ingresa los datos:
@@ -146,7 +146,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 3. Haz clic en **Registrar**.
 4. Si la conexión con el backend y la base de datos es correcta, aparecerá el mensaje:
 
-   > ✅ Usuario registrado correctamente
+   > Usuario registrado correctamente
 5. En **pgAdmin**, puedes verificar los registros con:
 
    ```sql
@@ -155,7 +155,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 🤖 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 | Componente         | Tecnología        |
 | ------------------ | ----------------- |
@@ -168,13 +168,13 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-## 👩‍💻 Autor
+## Autor
 
 **ALAN JOSUE ESPINOZA ZAMBRANO**
 
 ---
 
-## 🗳️ Comandos rápidos
+## Comandos rápidos
 
 | Acción                         | Comando          |
 | ------------------------------ | ---------------- |
@@ -185,7 +185,7 @@ Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
 
 ---
 
-### 💡 Nota importante
+### Nota importante
 
 Si React intenta usar el mismo puerto 3000 que el backend, acepta cambiarlo cuando aparezca el mensaje:
 
@@ -194,5 +194,5 @@ Si React intenta usar el mismo puerto 3000 que el backend, acepta cambiarlo cuan
 
 ---
 
-✅ **Resultado final:**
+**Resultado final:**
 El sistema integra correctamente el backend y frontend, permitiendo registrar usuarios en tiempo real desde el navegador hacia PostgreSQL.
