@@ -13,29 +13,6 @@ El objetivo es mostrar el funcionamiento integrado entre **frontend (React)**, *
 
 ---
 
-## Estructura del proyecto
-
-```
-🗁 servidor-usuarios/     ← Backend (API REST)
-│   ├─ server.js
-│   ├─ db.js
-│   ├─ package.json
-│   └─ node_modules/
-│
-🗁 cliente-usuarios/      ← Frontend (Interfaz React)
-│   ├─ src/
-│   │   ├─ App.js
-│   │   ├─ index.js
-│   │   └─ ...
-│   ├─ public/
-│   ├─ package.json
-│   └─ node_modules/
-│
-└─ README.md             ← Archivo con documentación
-```
-
----
-
 ## Requisitos previos
 
 Antes de instalar y ejecutar el proyecto, asegúrate de tener instalado:
